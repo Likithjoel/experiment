@@ -6,6 +6,6 @@ addons:
   sonarcloud:
    organization: "likithjoel-github"
     token:
-     secure: "f6932bbfe6e836de7cd7e43093e918e4cbf56f14"
+     secure: "7171d9b8985d457ad465d465a81ad18dd2c9e4c8"
 script:
   - sonar-scanner
