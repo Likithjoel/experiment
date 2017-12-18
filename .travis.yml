@@ -1,5 +1,11 @@
+disty: trusty
 language: node_js
 node_js:
  - "stable"
+addons:
+  sonarcloud:
+   organization: "likithjoel-github"
+    token:
+     secure: "f6932bbfe6e836de7cd7e43093e918e4cbf56f14"
 script:
- - echo "hello"
+  - sonar-scanner
